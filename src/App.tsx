@@ -1,16 +1,18 @@
-import { ChakraProvider } from '@chakra-ui/react';
+import { Box, Center, ChakraProvider } from '@chakra-ui/react';
 import { FadeProvider } from 'components/Fade';
 
-function App() {
+export default function App() {
   return (
     <ChakraProvider>
-      <FadeProvider>
-        <div style={{ height: 1000, backgroundColor: 'red' }} />
-        <div style={{ height: 1000, backgroundColor: 'green' }} />
-        <div style={{ height: 1000, backgroundColor: 'blue' }} />
-      </FadeProvider>
+      <Center>
+        <Box w={{ base: '100%', md: '48em' }}>
+          <FadeProvider>
+            <Box h={1000} bg="red.500" />
+            <Box h={1000} bg="green.500" />
+            <Box h={1000} bg="blue.500" />
+          </FadeProvider>
+        </Box>
+      </Center>
     </ChakraProvider>
   );
 }
-
-export default App;
