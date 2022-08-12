@@ -1,14 +1,13 @@
-import { Box, Center, ChakraProvider } from '@chakra-ui/react';
-import { useState } from 'react';
-import { FadeProvider } from './components/Fade';
+import { Box, Center, ChakraProvider, Image } from '@chakra-ui/react';
+import { FadeProvider } from './utils/Fade';
 import { Form } from './components/Form';
 import { Info } from './components/Info';
 import { Invitation } from './components/Invitation';
 import { Top } from './components/Top';
+import { GoogleMap } from './components/GoogleMap';
+import rings from './assets/212305-366.jpg';
 
-function App() {
-  const [count, setCount] = useState(0);
-
+export default function App() {
   return (
     <ChakraProvider>
       <Center>
@@ -16,7 +15,9 @@ function App() {
           <FadeProvider>
             <Top />
             <Invitation />
+            <Image src={rings} />
             <Info />
+            <GoogleMap />
             <Form />
           </FadeProvider>
         </Box>
@@ -24,5 +25,3 @@ function App() {
     </ChakraProvider>
   );
 }
-
-export default App;
