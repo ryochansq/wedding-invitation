@@ -408,6 +408,20 @@
   dependencies:
     "@chakra-ui/utils" "2.0.6"
 
+"@chakra-ui/icon@3.0.8":
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/icon/-/icon-3.0.8.tgz#728476d657f1fc80c2ee0f39859703a0f3314b68"
+  integrity sha512-avd6mthBoG9R8cLLAROi/FItgk7wHy1YpeAXOrGdK/U/ECVWZev64RmI1UduKuVOLlSZldXWzFJmLdw6dAMG7A==
+  dependencies:
+    "@chakra-ui/utils" "2.0.8"
+
+"@chakra-ui/icons@^2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/icons/-/icons-2.0.8.tgz#38659b322165566806a8e7a9f1e0d38fa15128f1"
+  integrity sha512-otX85/laLd9rC26EsaRK/QufXxclfK/JGw3vdxh+sEULFgwuC56tUzmXTwIt8GcDIx/LvZBkDgkXN0sn6Cqmog==
+  dependencies:
+    "@chakra-ui/icon" "3.0.8"
+
 "@chakra-ui/image@2.0.7":
   version "2.0.7"
   resolved "https://registry.yarnpkg.com/@chakra-ui/image/-/image-2.0.7.tgz#07a101d0fb604a0020abda77adefa3438cff9b15"
@@ -795,6 +809,16 @@
     framesync "5.3.0"
     lodash.mergewith "4.6.2"
 
+"@chakra-ui/utils@2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/utils/-/utils-2.0.8.tgz#b75e1cd22479eaa64410bd42849e638138971b20"
+  integrity sha512-5xSzOYSYbJEh+myY1mC6rOX+mzM/F2fiDqAw0zybHhfUab4zPHCO5RlgYVJ0L1DlGZUogVgRP6szH1xoBCcWQg==
+  dependencies:
+    "@types/lodash.mergewith" "4.6.6"
+    css-box-model "1.2.1"
+    framesync "5.3.0"
+    lodash.mergewith "4.6.2"
+
 "@chakra-ui/visually-hidden@2.0.6":
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/@chakra-ui/visually-hidden/-/visually-hidden-2.0.6.tgz#5f9a1b772e9ba18e39dbab4781c30d5abc2d0cc7"
@@ -924,6 +948,16 @@
   version "0.14.54"
   resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.14.54.tgz#de2a4be678bd4d0d1ffbb86e6de779cde5999028"
   integrity sha512-bZBrLAIX1kpWelV0XemxBZllyRmM6vgFQQG2GdNb+r3Fkp0FOh1NJSvekXDs7jq70k4euu1cryLMfU+mTXlEpw==
+
+"@fontsource/noto-serif-jp@^4.5.11":
+  version "4.5.11"
+  resolved "https://registry.yarnpkg.com/@fontsource/noto-serif-jp/-/noto-serif-jp-4.5.11.tgz#baa300082b2cb5feb1b7ba5db41066cde14f4354"
+  integrity sha512-E4540VyTcg+r0qIQFBqDHEwJTl0XOFScYYLg0+4b+qPaWu2OnzbAhpwpvKTC9w/P7+ikPvvnOQb42eo75XKKIw==
+
+"@fontsource/pinyon-script@^4.5.10":
+  version "4.5.10"
+  resolved "https://registry.yarnpkg.com/@fontsource/pinyon-script/-/pinyon-script-4.5.10.tgz#41aae4d7ae93d3e7ad83191e4a9d8d08247957e7"
+  integrity sha512-PV67F8RUYtURKKMBXvWFFqxiNbwHljRct1vZf6SxX40LKp31nPo14sk5sU02CHiMfkej3EN1HRh8XMYWVTw87Q==
 
 "@jridgewell/gen-mapping@^0.1.0":
   version "0.1.1"
