@@ -2,8 +2,8 @@ import React, { ReactNode } from 'react';
 import { Box, SlideFade } from '@chakra-ui/react';
 import { useInView } from 'react-intersection-observer';
 
-const rootMargin = '32px';
-const offsetY = 32;
+const rootMargin = '24px';
+const offsetY = 24;
 const duration = 2;
 
 const Fade = ({ children }: { children: ReactNode }) => {
