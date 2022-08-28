@@ -1,9 +1,9 @@
 import { ExternalLinkIcon } from '@chakra-ui/icons';
-import { Heading, Link, Text, VStack } from '@chakra-ui/react';
+import { Button, Heading, Link, Text, VStack } from '@chakra-ui/react';
 
 export const Info = () => (
   <VStack gap="2" py="6">
-    <Heading size="xl" fontFamily="Pinyon Script" fontWeight="normal">
+    <Heading size="2xl" fontFamily="Pinyon Script" fontWeight="normal">
       Information
     </Heading>
     <VStack align="normal" fontSize="xl" gap="2" letterSpacing="wide">
@@ -18,15 +18,18 @@ export const Info = () => (
     <Text>
       品川駅からホテルまで無料送迎バスもあります
       <br />
-      詳しくは{' '}
-      <Link
-        href="https://www.tokyo-marriott.com/guide/access.html"
-        isExternal
-        color="teal"
+      詳しくは
+      <Button
+        colorScheme="teal"
+        m="0 4px"
+        onClick={() =>
+          window.open('https://www.tokyo-marriott.com/guide/access.html')
+        }
+        rightIcon={<ExternalLinkIcon />}
+        variant="link"
       >
         ホテルのサイト
-        <ExternalLinkIcon mx="2px" mb="3px" />
-      </Link>
+      </Button>
       をご確認ください
     </Text>
   </VStack>

@@ -34,6 +34,11 @@ export default function App() {
               shadow="base"
               size="lg"
               rightIcon={<ExternalLinkIcon />}
+              onClick={() =>
+                window.open(
+                  'https://docs.google.com/forms/d/e/1FAIpQLSdNW2gM0Mh3Y4sTm6DWYG5C0wapmne2qaMkZfiLZ9ncTZSUGA/viewform?usp=sf_link'
+                )
+              }
             >
               回答フォームはこちら
             </Button>

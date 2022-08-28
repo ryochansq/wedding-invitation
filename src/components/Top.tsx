@@ -10,7 +10,7 @@ export const Top = () => (
       <Heading size="xl" fontFamily="Pinyon Script" fontWeight="normal">
         Ryota & Madoka
       </Heading>
-      <Heading size="md" fontFamily="Pinyon Script" fontWeight="normal">
+      <Heading size="lg" fontFamily="Pinyon Script" fontWeight="normal">
         2022.11.13
       </Heading>
     </VStack>
