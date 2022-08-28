@@ -1,4 +1,4 @@
-import { Box, Text, VStack } from '@chakra-ui/react';
+import { Text, VStack } from '@chakra-ui/react';
 
 export const Invitation = () => (
   <VStack p="3" mb="3">
