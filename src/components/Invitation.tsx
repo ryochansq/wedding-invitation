@@ -2,7 +2,7 @@ import { Text, VStack } from '@chakra-ui/react';
 
 export const Invitation = () => (
   <VStack p="3" mb="3">
-    <VStack borderWidth="1px" p="4" shadow="md" w="100%">
+    <VStack borderWidth="1px" p="3" shadow="md" w="100%">
       <Text align="center" lineHeight="2em">
         謹啓
         <br />
